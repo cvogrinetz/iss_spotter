@@ -36,12 +36,12 @@ const { fetchMyIP, fetchCoordsByIP, fetchISSFlyOverTimes, nextISSTimesForMyLocat
     }
   };
 
-  nextISSTimesForMyLocation((error, passTimes) => {
-    if (error) {
-      console.log(`It didnt work`, error);
-      return;
-    }
-    console.log(`Space is neat: `, passTimes)
+  // nextISSTimesForMyLocation((error, passTimes) => {
+  //   if (error) {
+  //     console.log(`It didnt work`, error);
+  //     return;
+  //   }
+  //   console.log(`Space is neat: `, passTimes)
  
-    printPassTimes(passTimes)
-  })
+  //   printPassTimes(passTimes)
+  // })
